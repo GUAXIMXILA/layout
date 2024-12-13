@@ -1,0 +1,185 @@
+/* complementos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* topo do layout*/
+header {
+    background-color: #f7c331;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h6 {
+    margin: 5px 0 0;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* área de navegação */
+nav {
+    background-color: #ffdd66;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #cc7a00;
+}
+
+/* parte do section */
+section {
+    padding: 20px;
+    background-color: #eeede8;
+}
+
+#info1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#informacao1 {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* configs da tabela */
+#table-container {
+    background-color: #fff; /* para destacar a tabela */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    background-color: transparent; 
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #ffcc33;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #f7e8cc;
+}
+
+/* formatação dos artigos */
+article {
+    background-color: #eeede8;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+article div {
+    background-color: #f5ee8e; 
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+article img {
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+article .texto {
+    font-size: 1.5em;
+    color: #444;
+    font-family: sans-serif;
+}
+
+/* textos laterais*/
+.side-content {
+    flex: 1;
+    max-width: 200px;
+    background-color: #f5ee8e;
+    border: 15px solid #ffcc00;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 1em;
+    font-weight: bold;
+}
+ 
+/* Rodapé */
+footer {
+    background-color: #f7c331;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+/* complementos */
+@media (max-width: 768px) {
+    nav button {
+        display: block;
+        margin: 10px auto;
+    }
+
+    article {
+        flex-direction: column;
+    }
+}
+ 
